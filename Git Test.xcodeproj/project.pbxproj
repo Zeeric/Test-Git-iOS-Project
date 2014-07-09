@@ -21,6 +21,7 @@
 		7C25B049196C809F0042A291 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C25B02B196C809E0042A291 /* UIKit.framework */; };
 		7C25B051196C809F0042A291 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C25B04F196C809F0042A291 /* InfoPlist.strings */; };
 		7C25B053196C809F0042A291 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C25B052196C809F0042A291 /* Git_TestTests.m */; };
+		7C25B05E196DC2300042A291 /* ZEETest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C25B05D196DC22E0042A291 /* ZEETest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		7C25B04E196C809F0042A291 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		7C25B050196C809F0042A291 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7C25B052196C809F0042A291 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		7C25B05C196DC22D0042A291 /* ZEETest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZEETest.h; path = ../ZEETest.h; sourceTree = "<group>"; };
+		7C25B05D196DC22E0042A291 /* ZEETest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZEETest.m; path = ../ZEETest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				7C25B039196C809F0042A291 /* Main.storyboard */,
 				7C25B03C196C809F0042A291 /* ZEEViewController.h */,
 				7C25B03D196C809F0042A291 /* ZEEViewController.m */,
+				7C25B05C196DC22D0042A291 /* ZEETest.h */,
+				7C25B05D196DC22E0042A291 /* ZEETest.m */,
 				7C25B03F196C809F0042A291 /* Images.xcassets */,
 				7C25B02E196C809E0042A291 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C25B05E196DC2300042A291 /* ZEETest.m in Sources */,
 				7C25B034196C809E0042A291 /* main.m in Sources */,
 				7C25B03E196C809F0042A291 /* ZEEViewController.m in Sources */,
 				7C25B038196C809E0042A291 /* ZEEAppDelegate.m in Sources */,
